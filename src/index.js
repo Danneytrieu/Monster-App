@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'; // React engine
+import ReactDOM from 'react-dom/client'; //engine direct toward web
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Strictmode prevent developer to write old react codes
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode>  
     <App />
   </React.StrictMode>
 );
